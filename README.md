@@ -5,14 +5,14 @@ The architectural framework intricately maps out the constituent components and 
 	
 ![image](https://github.com/dogukan1047/data_science_project_prod/assets/70372233/86fd8f45-1543-4b19-abd5-bb94c0a00a20)
 
-# split_images.py: 
+## split_images.py: 
 This code defines a function called split_image that takes an image file path along with parameters for the number of rows and columns to divide the image into. It splits the image into smaller pieces based on the specified rows and columns, and optionally squares each piece to ensure uniformity. The resulting pieces are saved as separate image files in the specified output directory. Additionally, the function provides options to square the pieces and perform cleanup operations.
 ![image](https://github.com/dogukan1047/data_science_project_prod/assets/70372233/e2957ada-887c-489b-be9c-96c9ee595354)
 
-# csv_creater.py:
+## csv_creater.py:
 This script converts images from a directory into vectors and appends them, along with corresponding labels, to a CSV file. It resizes the images to 28x28 pixels, converts them to grayscale, flattens them into vectors, and assigns labels based on their order. Finally, it writes the image vectors and labels to the CSV file.
 	
-# Model_script.py:
+## Model_script.py:
 This code trains a Multi-Layer Perceptron (MLP) classifier:
 1.It reads data from a CSV file.
 2.Splits the data into input (X) and output (y) variables.
@@ -22,7 +22,7 @@ This code trains a Multi-Layer Perceptron (MLP) classifier:
 6.Visualizes loss and accuracy during training.
 7.Displays final training and test accuracies
 
-# Prediction.py:
+## Prediction.py:
 This code takes an image vector as input from the user, uses a pre-trained model to  make a prediction, and then prints the prediction result.
 # 2.Implementation of Work
 The journey begins with the extraction of data from a CSV file, containing information about images and their corresponding labels. This data is then divided into two sets: one for training the model and the other for testing its performance. The model selection process involves choosing the best configuration for the MLP classifier, which includes deciding on the number of hidden layers, activation functions, regularization parameters, and the maximum number of iterations. Grid search, a technique for hyperparameter optimization, is employed to find the optimal settings for the model. Once the best configuration is identified, the model is trained using the training data to learn patterns and relationships between images and their labels
@@ -39,9 +39,9 @@ In conclusion, the development of the machine learning model represents a signif
 ![image](https://github.com/dogukan1047/data_science_project_prod/assets/70372233/5f267b4e-4f57-4e02-9f7c-c520c3550a35)
 
 Bibliography:
-[1] Our Documentation | Python.org
-[2] sklearn.neural_network.MLPClassifier — scikit-learn 1.4.2 documentation
-[3] Developer guides (keras.io)
-[4] https://pandas.pydata.org/docs/
+*  Our Documentation | Python.org
+*  sklearn.neural_network.MLPClassifier — scikit-learn 1.4.2 documentation
+*  Developer guides (keras.io)
+*  https://pandas.pydata.org/docs/
 
 
