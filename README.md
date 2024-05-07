@@ -1,3 +1,6 @@
+
+# Used the script in the model_two_prod folder
+
 # 1. Job Description:
 This document outlines the steps involved in creating and enhancing a machine learning model designed to classify images accurately. The main method used is called a Multi-Layer Perceptron (MLP) classifier. The ultimate aim is to develop a model capable of correctly identifying the content of images, which is crucial for various applications like image recognition, medical diagnosis, and more. The process entails several stages, including data preparation, model selection, parameter tuning, training, evaluation, and result visualization
 # 1.1.Architectural Diagram:
